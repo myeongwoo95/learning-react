@@ -1,16 +1,15 @@
-import React, { useEffect }from "react"
+import React from "react"
 
 const User = React.memo(function User({user, onRemove, onToggle}){
 
   // useEffect(() => {
   //   console.log("user 값이 설정 됨")
-  //   console.log(user);
 
   //   return () => {
   //     console.log('user 값이 바뀌기 전')
-  //     console.log(user)
   //   }
-  // }, [user]);
+    
+  // }, []);
 
   return(
     <div>
